@@ -25,3 +25,7 @@ spring:
           uri: lb://transaction
           predicates:
             - Path=/transactions/**
+        - id: affiliation
+          uri: lb://affiliation
+          predicates:
+            - Path=/affiliations/**
