@@ -29,3 +29,7 @@ spring:
           uri: lb://affiliation
           predicates:
             - Path=/affiliations/**
+        - id: report
+          uri: lb://report
+          predicates:
+            - Path=/reports/**            
